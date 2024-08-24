@@ -35,6 +35,9 @@
       tailwind.config = {
         theme: {
           extend: {
+            backgroundImage: {
+                 'discuss-next': "url('./assets/bg.jpg')"
+            },
             colors: {
               clifford: "#da373d",
             },
@@ -357,6 +360,49 @@
         <!-- Portfolio-grid-cards-ends -->
        </section>
       <!-- Our Latest Portfolio section ends -->
+
+      <!-- Lets Discuss new project section starts -->
+       <section class=" mt-2 mb-2 bg-discuss-next pt-24 pb-24 bg-no-repeat bg-cover">
+        <div class="w-11/12 mx-auto">
+            <div class="text-center space-y-6">
+                <button class="bg-[#ABEF5F33] rounded-2xl px-2 py-1 font-bold">
+                    <i class="fa-solid fa-arrow-right"></i>
+                     Let's Connect
+                  </button>
+                  <h3 class="text-4xl font-bold">Let’s Discuss Next Project</h3>
+                  <p class="text-[#494949] font-medium">Join us to discuss your next project and explore how we can bring your vision to life.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-6 gap-4">
+               <div class="md:col-span-1">
+                <input class="rounded-2xl px-5 py-2 w-full input-md" type="text" placeholder="First Name*" name="" id="">
+               </div>
+               <div class="md:col-span-1">
+                <input class="rounded-2xl px-5 py-2 w-full input-md" type="text" placeholder="Last Name*" name="" id="">
+               </div>
+               <div class="md:col-span-1">
+                <input class="rounded-2xl px-5 py-2 w-full input-md" type="text" placeholder="Phone Number*" name="" id="">
+               </div>
+               <div class="md:col-span-1">
+                <input class="rounded-2xl px-5 py-2 w-full input-md" type="text" placeholder="Email Number*" name="" id="">
+               </div>
+               <div class="md:col-span-2  w-full">
+                <textarea
+                placeholder="Write your message here"
+                class="textarea  w-full rounded-2xl" rows="6"></textarea>
+               </div>
+            </div>
+            <div class="text-center ">
+                <button class="bg-[#ABEF5F] px-10 py-3 rounded-3xl mt-6 w-full">
+                    <a class="font-bold mr-1">Send Mail</a>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 rounded-full p-1 bg-black text-white"
+                    ></i>
+                  </button>
+              </div>
+        </div>
+       </section>
+      <!-- Lets Discuss new project section ends -->
     </main>
     <footer>
       <section class="bg-black">
